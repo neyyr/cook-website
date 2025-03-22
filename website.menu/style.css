@@ -1,0 +1,245 @@
+/* ensemble de la page */
+
+body {
+    background-color: rgb(180, 166, 144);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* part 1 : the top */
+
+header {
+    text-align: center;
+    background-color: rgb(119, 53, 33);
+    color: rgba(255, 255, 255, 0.815);
+    padding: 10px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.search-bar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 20px;
+    margin-right: 70px;
+    padding: 5px;
+    padding-right: 15px;
+    border-radius: solid 20px;
+    transform: scale(1.5);
+    font-size: 10px;
+}
+
+
+/* part 2 : the middle */
+
+nav {
+    padding: 50px;
+    padding-left: 30px;
+    margin: 50px;
+    background-color: rgb(221, 214, 204);
+    border-radius: 20px;
+}
+
+/* barre de navigation / menu horizontal */
+.menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(119, 53, 33);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.menu > ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li a {
+    text-decoration: none;
+    display: block ;
+    color: rgba(255, 255, 255, 0.815);
+    padding: 16px 150px;
+    font-size: 20px;
+}
+
+/* case entrées */
+.entrees {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: max-content;
+    background-color: rgb(119, 53, 33);
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.has-entrees:hover .entrees {
+    display: block;
+}
+
+.has-entrees:hover {
+    position: relative;
+}
+
+/* case plats */
+.pla {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: max-content;
+    background-color: rgb(119, 53, 33);
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.has-plats:hover .pla {
+    display: block;
+}
+
+.has-plats:hover {
+    position: relative;
+}
+
+/* case accompagnements */
+.accomp {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: max-content;
+    background-color: rgb(119, 53, 33);
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.has-accompagnements:hover .accomp {
+    display: block;
+}
+
+.has-accompagnements:hover {
+    position: relative;
+}
+
+/* case desserts */
+.dess {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: max-content;
+    background-color: rgb(119, 53, 33);
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.has-desserts:hover .dess {
+    display: block;
+}
+
+.has-desserts:hover {
+    position: relative;
+}
+
+/* sous parties menu */
+ul li a:hover {
+    color: rgb(167, 162, 155);
+}
+
+/* mise en page des liens ext */
+.partie {
+    height: 750px;
+}
+
+.partie p {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(122, 66, 49);
+    padding-top: 50px;
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(119, 53, 33);
+}
+
+/* mise en page des images */
+h2 {
+    font-size: 25px;
+    color: rgb(119, 53, 33);
+    padding-top: 50px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.food {
+    overflow: hidden;
+}
+
+img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25); 
+    transform:scale(1.25);
+}
+
+
+/* part 3 : the bottom */
+
+footer {
+    text-align: center;
+    background-color: rgb(119, 53, 33);
+    color: rgba(255, 255, 255, 0.815);
+    padding: 40px;
+    position: relative;
+}
+
+/* discord aesthetics */
+i {
+    font-size: 20px; 
+    text-align: left; 
+    padding-left: 10px; 
+    position: absolute; 
+    left: 50px;
+    bottom: 65px;
+}
+
+footer a {
+    text-decoration: none;
+    color: silver;
+}   
