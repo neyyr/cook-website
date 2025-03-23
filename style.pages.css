@@ -27,6 +27,16 @@ h1 {
     font-size: 36px;
 }
 
+/* part 2 : the middle */
+
+nav {
+    padding: 50px;
+    padding-left: 30px;
+    margin: 50px;
+    background-color: rgb(221, 214, 204);
+    border-radius: 20px;
+}
+
 .search-bar {
     position: absolute;
     top: 20px;
